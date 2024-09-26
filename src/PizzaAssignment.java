@@ -10,10 +10,11 @@ public class PizzaAssignment {
         int slcs = 0;
         System.out.print("Please put in the diameter of the pizza:");
         dmter =scanner.nextDouble();
+        //this is where you enter the diameter of the pizza
         if (dmter < 6 || dmter > 24) {
             System.out.println("Uh-Oh the diameter has to be in the range 6 to 24!");
             return;
-
+// this is the error message you will get if you dont input in the range
 
         }
         if(dmter >= 6 && dmter < 8 ){
@@ -29,15 +30,14 @@ public class PizzaAssignment {
 
         } else if (dmter >= 20 && dmter < 24) {
             slcs = 16;
-
-
         }
+        //the if statement that will give the result of slices for the user's provided diameter
         double rad = dmter/2;
         double pizArea = Math.PI*rad*rad;
         double AreaSlc = pizArea/slcs;
         System.out.printf("a %.2f pizza will give %d slices", dmter,slcs);
         System.out.printf("Each slice will have %.2f square inches of area.", AreaSlc);
-
+        // this is the results you will get after everything is done
 
     }
 
