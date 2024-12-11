@@ -10,7 +10,7 @@ public class ICE1assignment {
         System.out.println("My favorite quote is: \"Everyone’s a wh**e, Grace. We just sell different parts of ourselves.\" - Thomas Shelby, Peaky Blinders.");
         // the quote
         Scanner input = new Scanner(System.in);
-        //for the users input
+        //for the users input 
         System.out.print("Please enter a number: ");
         //where u input
         int usrinpt = input.nextInt();

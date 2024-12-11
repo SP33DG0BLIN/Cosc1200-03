@@ -31,9 +31,12 @@ public class Numberstuffgame {
                 System.out.println("Smell ya later!");
                 running = false;
             } else {
-                System.out.println("WRONG....please try aghain");
+                System.out.println("WRONG....please try again");
             }
         }
         scanner.close();
     }
 }
+// this just calls everything from the og file   
+
+

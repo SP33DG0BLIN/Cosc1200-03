@@ -18,7 +18,7 @@ public class NumericFunctions{
             int temp = b;
             b = a + b;
             a = temp;
-        }
+        } 
     
     return b == val;
     }

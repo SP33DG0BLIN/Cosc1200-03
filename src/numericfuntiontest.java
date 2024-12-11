@@ -19,4 +19,4 @@ public class numericfuntiontest {
         scanner.close();
     }
 
-}
+}   
