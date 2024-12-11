@@ -86,13 +86,13 @@ public class vetclinic  {
             String ownerName = ownerField.getText();
             String email = emailField.getText();
             String selectedVet = null;
-
+//
              if (vet1.isSelected()) {
                 selectedVet = "Dr. Smith";
                 } else if (vet2.isSelected()) {
-                selectedVet = "Dr. Lee";
+                selectedVet = "Dr. wang";
                 } else if (vet3.isSelected()) {
-                selectedVet = "Dr. Patel";
+                selectedVet = "Dr. Sripalvardana";
                 }
 
                 //validatiiion stuff
@@ -100,7 +100,7 @@ public class vetclinic  {
                 messageLabel.setText("Please fill in all fields and select a vet.");
                 return;
                 }
-
+//email stuff
                 if (!email.matches("^[\\w!#$%&'*+/=?{|}~^-]+(?:\\.[\\w!#$%&'*+/=?{|}~^-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$")) {
                 messageLabel.setText("Invalid email format.");
                 return;
